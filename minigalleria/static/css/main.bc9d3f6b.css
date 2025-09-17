@@ -20,13 +20,13 @@ h1 {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
   padding: 20px 40px;
-  justify-items: center; /* centra le card nella griglia */
+  justify-items: center; 
 }
 
 .card {
   cursor: pointer;
   text-align: center;
-  max-width: 200px; /* evita che le card diventino troppo grandi */
+  max-width: 200px; 
 }
 
 .card img {
