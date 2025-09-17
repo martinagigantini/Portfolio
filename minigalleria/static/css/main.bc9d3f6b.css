@@ -1,0 +1,2 @@
+body{background-color:#141414;color:#fff;font-family:Arial,sans-serif;margin:0}.App{margin-top:20px;text-align:center}h1{color:#e50914;margin-bottom:30px}.grid{grid-gap:20px;display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));padding:20px 40px}.card{cursor:pointer;text-align:center}.card img{border-radius:10px;height:200px;object-fit:cover;transition:transform .3s;width:100%}.card:hover img{transform:scale(1.05)}.card p{color:#61dafb;margin-top:10px}
+/*# sourceMappingURL=main.bc9d3f6b.css.map*/

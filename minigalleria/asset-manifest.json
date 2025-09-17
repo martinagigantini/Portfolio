@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc9d3f6b.css",
+    "main.js": "/static/js/main.07acb2dd.js",
+    "static/media/doma.jpg": "/static/media/doma.ec8fdf96faf666adebc4.jpg",
+    "static/media/akaza.jpg": "/static/media/akaza.a5d132163d448a7c69b7.jpg",
+    "static/media/tanjiro.jpg": "/static/media/tanjiro.083a43a515dd62c0fe43.jpg",
+    "static/media/zenitsu.jpg": "/static/media/zenitsu.65b62dd2e02a8c10111a.jpg",
+    "static/media/shinobu.jpg": "/static/media/shinobu.67366cace01e4063e109.jpg",
+    "static/media/kokushibo.jpg": "/static/media/kokushibo.3af772a71eb823fd4b8e.jpg",
+    "index.html": "/index.html",
+    "main.bc9d3f6b.css.map": "/static/css/main.bc9d3f6b.css.map",
+    "main.07acb2dd.js.map": "/static/js/main.07acb2dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc9d3f6b.css",
+    "static/js/main.07acb2dd.js"
+  ]
+}
