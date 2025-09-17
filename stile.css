@@ -60,4 +60,13 @@ ul li {
   background-color: #f6121d;
   transform: scale(1.05);
 }
+.progetti-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* centra tutte le cards orizzontalmente */
+}
 
+.progetto-card {
+  text-align: center;      /* centra il contenuto dentro ogni card */
+}
