@@ -1,19 +1,79 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="it">
 <head>
-  <meta charset="utf-8"/>
+  <meta charset="UTF-8"/>
   <link rel="icon" href="favicon.ico"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="theme-color" content="#000000"/>
-  <meta name="description" content="Web site created using create-react-app"/>
+  <meta name="description" content="Mini Galleria Anime"/>
   <link rel="apple-touch-icon" href="logo192.png"/>
   <link rel="manifest" href="manifest.json"/>
   <title>Mini Galleria Anime</title>
-  <script defer="defer" src="static/js/main.07acb2dd.js"></script>
   <link href="static/css/main.bc9d3f6b.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #141414;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      text-align: center;
+    }
+    h1 {
+      color: #e50914;
+      margin-top: 30px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      padding: 20px 40px;
+    }
+    .card {
+      cursor: pointer;
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .card:hover img {
+      transform: scale(1.05);
+    }
+    .card p {
+      margin-top: 10px;
+      color: #61dafb;
+    }
+  </style>
 </head>
 <body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+  <h1>Mini Galleria Anime</h1>
+  <div class="grid">
+    <div class="card">
+      <img src="images/shinobu.jpg" alt="Shinobu">
+      <p>Shinobu</p>
+    </div>
+    <div class="card">
+      <img src="images/tanjiro.jpg" alt="Tanjiro">
+      <p>Tanjiro</p>
+    </div>
+    <div class="card">
+      <img src="images/zenitsu.jpg" alt="Zenitsu">
+      <p>Zenitsu</p>
+    </div>
+    <div class="card">
+      <img src="images/akaza.jpg" alt="Akaza">
+      <p>Akaza</p>
+    </div>
+    <div class="card">
+      <img src="images/doma.jpg" alt="Doma">
+      <p>Doma</p>
+    </div>
+    <div class="card">
+      <img src="images/kokushibo.jpg" alt="Kokushibo">
+      <p>Kokushibo</p>
+    </div>
+  </div>
 </body>
 </html>
